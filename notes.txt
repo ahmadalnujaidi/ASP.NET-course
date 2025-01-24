@@ -1,0 +1,11 @@
+start:
+    dotnet new list -> list of projects
+    ctrl + shift + p -> .Net: new project
+        -> empty web
+
+cd into gamestore directory -> dotnet run
+
+
+
+REST? 
+    -> REpresentational State Transfer: conditions on how api should work, stateless, client-server, uniform interface, layered system, cacheable, code on demand.
