@@ -13,3 +13,17 @@ Content-Type: application/json
   "price": 59.99,
   "releaseDate": "1985-09-13"
 }
+
+###
+PUT http://localhost:5162/games/7
+Content-Type: application/json
+
+{
+  "name": "Minecraft",
+  "genre": "survival",
+  "price": 100.99,
+  "releaseDate": "2010-09-13"
+}
+
+###
+DELETE http://localhost:5162/games/2
